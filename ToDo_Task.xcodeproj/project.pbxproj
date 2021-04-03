@@ -16,6 +16,8 @@
 		3364BE0D26174EA1000963EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3364BE0B26174EA1000963EE /* LaunchScreen.storyboard */; };
 		3364BE1826174EA1000963EE /* ToDo_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364BE1726174EA1000963EE /* ToDo_TaskTests.swift */; };
 		3364BE2326174EA1000963EE /* ToDo_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364BE2226174EA1000963EE /* ToDo_TaskUITests.swift */; };
+		3364BE3426175991000963EE /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364BE3326175991000963EE /* EntryViewController.swift */; };
+		3364BE39261759B0000963EE /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3364BE38261759B0000963EE /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3364BE1E26174EA1000963EE /* ToDo_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDo_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3364BE2226174EA1000963EE /* ToDo_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_TaskUITests.swift; sourceTree = "<group>"; };
 		3364BE2426174EA1000963EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3364BE3326175991000963EE /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		3364BE38261759B0000963EE /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				3364BDFD26174E9E000963EE /* AppDelegate.swift */,
 				3364BDFF26174E9E000963EE /* SceneDelegate.swift */,
 				3364BE0126174E9E000963EE /* ViewController.swift */,
+				3364BE3326175991000963EE /* EntryViewController.swift */,
+				3364BE38261759B0000963EE /* TaskViewController.swift */,
 				3364BE0326174E9E000963EE /* Main.storyboard */,
 				3364BE0926174EA1000963EE /* Assets.xcassets */,
 				3364BE0B26174EA1000963EE /* LaunchScreen.storyboard */,
@@ -262,9 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3364BE0226174E9E000963EE /* ViewController.swift in Sources */,
+				3364BE3426175991000963EE /* EntryViewController.swift in Sources */,
 				3364BDFE26174E9E000963EE /* AppDelegate.swift in Sources */,
 				3364BE0826174E9E000963EE /* ToDo_Task.xcdatamodeld in Sources */,
 				3364BE0026174E9E000963EE /* SceneDelegate.swift in Sources */,
+				3364BE39261759B0000963EE /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5F7CEG728G;
 				INFOPLIST_FILE = ToDo_Task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5F7CEG728G;
 				INFOPLIST_FILE = ToDo_Task/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
